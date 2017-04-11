@@ -1,0 +1,22 @@
+{
+    "name": "tukang/say-dayak",
+    "description": "A package for you to say dayak language",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TukangCode",
+            "email": "C1255201032@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+		"phpunit/phpunit": "6.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SayDayak": "src/"
+        }
+    }
+}
